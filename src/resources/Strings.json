@@ -1,0 +1,5 @@
+{
+  "teamName": "The Thankful Koalas",
+  "problemStatement": "The problem is that there is a constant need for blood and people are always busy. How can we make the blood donation process faster so that it integrates seamlessly into their schedules?",
+  "problemSolution": "We are looking into a text-message based solution using Twilio that will let donors know when they're eligible to donate, nearby blood drives, and where their blood went."
+}
