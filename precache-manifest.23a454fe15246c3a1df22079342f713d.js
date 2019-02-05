@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/infocapstone2019/static/js/runtime~main.4a88fc6e.js"
   },
   {
-    "revision": "7289ff6b4158d455eb48",
-    "url": "/infocapstone2019/static/js/main.7289ff6b.chunk.js"
+    "revision": "78f2d7d31f49b533d27c",
+    "url": "/infocapstone2019/static/js/main.78f2d7d3.chunk.js"
   },
   {
     "revision": "e57d543d414f3d3a9608",
     "url": "/infocapstone2019/static/js/1.e57d543d.chunk.js"
   },
   {
-    "revision": "7289ff6b4158d455eb48",
+    "revision": "78f2d7d31f49b533d27c",
     "url": "/infocapstone2019/static/css/main.88455514.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/infocapstone2019/static/css/1.a4fef658.chunk.css"
   },
   {
-    "revision": "001ba55e660c79bb71649a984b9aa38e",
+    "revision": "0c480786addfdf0bae6cdae73b5e392b",
     "url": "/infocapstone2019/index.html"
   }
 ];
