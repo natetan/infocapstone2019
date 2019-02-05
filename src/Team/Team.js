@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, CardLink, Button, Col, Row } from 'reactstrap';
 
-const test = require('../resources/images/skate-mario.jpg');
 const team = require('./Team.json');
 
 export class Team extends Component {
