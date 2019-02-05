@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "Yulong",
+    "lastName": "Tan",
+    "role": "Developer",
+    "phone": "206-778-1865",
+    "email": "swifties@uw.edu",
+    "bio": "When he's not goofing around, he's skating. When he's not skating, he's actually being productive...or just procrastinating.",
+    "githubUrl": "https://github.com/yulongtan",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+  },
+  {
+    "firstName": "Phillip",
+    "lastName": "Park",
+    "role": "Developer",
+    "phone": "253-736-4393",
+    "email": "pypark@uw.edu",
+    "bio": "Bio here",
+    "githubUrl": "https://github.com/PYParkx",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+  },
+  {
+    "firstName": "Madison",
+    "lastName": "Smith",
+    "role": "Researcher",
+    "phone": "360-483-7315",
+    "email": "mcs14@uw.edu",
+    "bio": "Bio here.",
+    "githubUrl": "https://github.com/MadisonCSmith",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+  },
+  {
+    "firstName": "Varun",
+    "lastName": "Mehra",
+    "role": "Developer",
+    "phone": "206-612-8235",
+    "email": "vmehra13@uw.edu",
+    "bio": "Bio here.",
+    "githubUrl": "https://github.com/varunmehra13",
+    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+  }
+]

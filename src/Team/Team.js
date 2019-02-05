@@ -1,22 +1,34 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Col, Row } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, CardLink, Button, Col, Row } from 'reactstrap';
+
+const test = require('../resources/images/skate-mario.jpg');
+const team = require('./Team.json');
 
 export class Team extends Component {
   render() {
-    return (
-      <Row>
-        <Col sm="4">
-          <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+    let teamCards = team.map((member) => {
+      return (
+        <Col sm="3">
+          <Card key={member.firstName}>
+            <CardImg top width="100%" src={member.image} alt={`${member.firstName} ${member.lastName}`} />
             <CardBody>
-              <CardTitle>Yulong Tan</CardTitle>
-              <CardSubtitle>Developer</CardSubtitle>
+              <CardTitle>{member.firstName} {member.lastName}</CardTitle>
+              <CardSubtitle>Role: {member.role}</CardSubtitle>
+              <CardSubtitle>Email: {member.email}</CardSubtitle>
+              <CardSubtitle>Phone: {member.phone}</CardSubtitle>
               <hr />
-              <CardText><em>When he's not goofing around, he's skating. When he's not skating, he's actually being productive...or just procrastinating.</em></CardText>
-              <Button>Button</Button>
+              <CardText><em>{member.bio}</em></CardText>
+              <Button className="bg-success">
+                <CardLink className="text-white" target="_blanK" href={member.githubUrl}>More Info</CardLink>
+              </Button>
             </CardBody>
           </Card>
         </Col>
+      )
+    })
+    return (
+      <Row>
+        {teamCards}
       </Row>
     )
   }
