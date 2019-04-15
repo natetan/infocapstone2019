@@ -1,4 +1,6 @@
 # Code repository for **Blood Pact**
+Team landing page can be viewed [here](https://yulongtan.github.io/infocapstone2019/)
+
 ### An automated text-message based blood donor system
 With our system we are primarily trying to address the following issues:
 1. Encourage involvement of first time donors by offering a quick method of getting involved with the process of blood donation. 
